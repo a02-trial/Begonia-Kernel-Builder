@@ -2,11 +2,11 @@
   {
     "kernelName": "power",
     "kernelSource": {
-      "device": "begonia",
-      "defconfig": "begonia_user_defconfig",
+      "device": "a02",
+      "defconfig": "a02_defconfig",
       "name": "Power-Non-Patches",
-      "repo": "https://github.com/Saikrishna1504/kernel_xiaomi_mt6785",
-      "branch": "bka"
+      "repo": "https://github.com/a02-trial/a022f_kernel",
+      "branch": "main"
     },
     "withRoot": "none",
     "withSUSFS": false,
@@ -22,10 +22,10 @@
     ],
     "ccache": true,
     "params": {
-      "ARCH": "arm64",
+      "ARCH": "arm",
       "CC": "clang-crDroid/bin/clang",
       "externalCommand": {
-        "CROSS_COMPILE": "clang-crDroid/bin/aarch64-linux-gnu-",
+        "CROSS_COMPILE": "clang-crDroid/bin/arm-linux-gnu-",
         "CROSS_COMPILE_ARM32": "clang-crDroid/bin/arm-linux-gnueabi-",
         "LD": "clang-crDroid/bin/ld.lld",
         "LLVM": "1",
@@ -37,7 +37,7 @@
         "READELF": "clang-crDroid/bin/llvm-readelf",
         "OBJSIZE": "clang-crDroid/bin/llvm-size",
         "STRIP": "clang-crDroid/bin/llvm-strip",
-        "LDGOLD": "clang-crDroid/bin/aarch64-linux-gnu-ld.gold",
+        "LDGOLD": "clang-crDroid/bin/arm-linux-gnu-ld.gold",
         "LLVM_AR": "clang-crDroid/bin/llvm-ar",
         "LLVM_DIS": "clang-crDroid/bin/llvm-dis"
       }
@@ -52,8 +52,8 @@
   {
     "kernelName": "power",
     "kernelSource": {
-      "device": "begonia",
-      "defconfig": "begonia_user_defconfig",
+      "device": "a02",
+      "defconfig": "a02_defconfig",
       "name": "Power-KSU-Next-SUSFS",
       "repo": "https://github.com/Saikrishna1504/kernel_xiaomi_mt6785",
       "branch": "bka"
@@ -72,10 +72,10 @@
     ],
     "ccache": true,
     "params": {
-      "ARCH": "arm64",
+      "ARCH": "arm",
       "CC": "clang-crDroid/bin/clang",
       "externalCommand": {
-        "CROSS_COMPILE": "clang-crDroid/bin/aarch64-linux-gnu-",
+        "CROSS_COMPILE": "clang-crDroid/bin/arm-linux-gnu-",
         "CROSS_COMPILE_ARM32": "clang-crDroid/bin/arm-linux-gnueabi-",
         "LD": "clang-crDroid/bin/ld.lld",
         "LLVM": "1",
@@ -87,7 +87,7 @@
         "READELF": "clang-crDroid/bin/llvm-readelf",
         "OBJSIZE": "clang-crDroid/bin/llvm-size",
         "STRIP": "clang-crDroid/bin/llvm-strip",
-        "LDGOLD": "clang-crDroid/bin/aarch64-linux-gnu-ld.gold",
+        "LDGOLD": "clang-crDroid/bin/arm-linux-gnu-ld.gold",
         "LLVM_AR": "clang-crDroid/bin/llvm-ar",
         "LLVM_DIS": "clang-crDroid/bin/llvm-dis"
       }
